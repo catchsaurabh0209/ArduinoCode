@@ -4,7 +4,6 @@ const int relay = 9;
 const int led = 13;
 long duration;
 float level;
-
 void setup() 
 {
   pinMode(trigPin, OUTPUT);                 // Sets the trigPin as an Output
@@ -48,5 +47,4 @@ void loop()
   Serial.print("Current water level in cm: ");
  Serial.println(level);
  delay(2000);
-
 }
